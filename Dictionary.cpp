@@ -129,15 +129,24 @@ int main ()
         else if (USERinput == "/print all")
         {
             int temp_columnSize = 0;
-
             cout << "column size ? : ";
             cin >> temp_columnSize;
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
+            int temp_tabSize = 0;
+            cout << "tab size ? : ";
+            cin >> temp_tabSize;
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
             for(int i = 0 ; i < StringList.size() ; i++)
             {
-                cout << "(" << right << setfill(' ') << setw(5) << i << ") : " << StringList[i] << "\t\t";
-
+                cout << "(" << right << setfill(' ') << setw(5) << i << ") : " << StringList[i];
+                
+                for(int j = 0 ; j < temp_tabSize ; j++)
+                {
+                    cout << "\t";
+                }
+                
                 if ((i+1) % temp_columnSize == 0)
                 {
                     cout << endl;
