@@ -1,0 +1,26 @@
+Appplepie
+Bagel
+Belgia bagel
+Bread
+Baggutte
+Biscuit
+Bun
+Cake
+Cereal Bread
+Cheesecake
+Coffee cake
+Cookies
+Cracker
+Crossaint
+Doughnut
+Eggtart
+Fruitcake
+Muffin
+Loaf Bread
+Pancake
+Pie //not π
+Pizza
+Pretzel
+Spongecake
+Toast
+Waffle

@@ -1,0 +1,13 @@
+Ionian
+Dorian
+Phrygian
+Lydian
+Mixolydian
+AeolianNatural
+AeolianHarmonic
+AeolianMelodic
+Locrian
+PentatonicIonian
+PentatonicAeolian
+PentatonicSakura
+Alternating
