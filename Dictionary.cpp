@@ -128,10 +128,25 @@ int main ()
         }
         else if (USERinput == "/print all")
         {
+            int temp_columnSize = 0;
+
+            cout << "column size ? : ";
+            cin >> temp_columnSize;
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
             for(int i = 0 ; i < StringList.size() ; i++)
             {
-                cout << "(" << i << ")" << StringList[i] << endl;
+                cout << "(" << right << setfill(' ') << setw(5) << i << ") : " << StringList[i] << "\t\t";
+
+                if ((i+1) % temp_columnSize == 0)
+                {
+                    cout << endl;
+                }
             }
+
+            cout << endl;
+
+
         }
         else if (USERinput == "/clr")
         {
@@ -164,14 +179,20 @@ int main ()
                 {
                     while( getline(ReaderOwO, temp_line))
                     {
-                        StringList.push_back(temp_line);
+                        if (temp_line != "")
+                        {
+                            StringList.push_back(temp_line);
+                        }
                     }
                 }
                 else
                 {
                     while( getline(ReaderOwO, temp_line))
                     {
-                        POwO_vector_BinaryInsert(StringList, temp_line, false);
+                        if (temp_line != "")
+                        {
+                            POwO_vector_BinaryInsert(StringList, temp_line, false);
+                        }
                     }
                 }
 
@@ -220,6 +241,33 @@ int main ()
             else
             {
                 cout << "index out of range" << endl;
+            }
+        }
+        else if (USERinput == "/delList")
+        {
+            cout << "filename ? : ";
+            string temp_fileName = "";
+            getline(cin,temp_fileName);
+
+            ifstream ReaderOwO(temp_fileName);
+
+            if (!ReaderOwO.is_open())
+            {
+                cout << "nope, can't find file QwQ>" << endl;
+            }
+            else
+            {
+                string temp_line = "";
+                while( getline(ReaderOwO, temp_line))
+                {
+                    int temp_catchIndex = POwO_vector_BinarySearch(StringList, temp_line, false);
+
+                    if (temp_catchIndex > -1)
+                    {
+                        StringList.erase( StringList.begin() + temp_catchIndex );
+                        cout << "removed item : " << temp_line << endl;
+                    }
+                }                
             }
         }
         else if (USERinput.at(0) == '/')
