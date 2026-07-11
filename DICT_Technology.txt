@@ -1,0 +1,5 @@
+telescope
+television
+smartphone
+telephone
+phone

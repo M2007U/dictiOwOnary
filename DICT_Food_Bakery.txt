@@ -1,26 +1,27 @@
-Appplepie
-Bagel
-Belgia bagel
-Bread
-Baggutte
-Biscuit
-Bun
-Cake
-Cereal Bread
-Cheesecake
-Coffee cake
-Cookies
-Cracker
-Crossaint
-Doughnut
-Eggtart
-Fruitcake
-Muffin
-Loaf Bread
-Pancake
-Pie //not π
-Pizza
-Pretzel
-Spongecake
-Toast
-Waffle
+appplepie
+bagel
+baggutte
+belgia-bagel
+biscuit
+bread
+bun
+cake
+cereal-bread
+cheesecake
+coffee-cake
+cookie
+cookies
+cracker
+crossaint
+doughnut
+eggtart
+fruit-cake
+loaf-bread
+muffin
+pancake
+pie
+pizza
+pretzel
+spongecake
+toast
+waffle

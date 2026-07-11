@@ -27,3 +27,4 @@ paper
 file
 folder
 book
+scissors

@@ -7,3 +7,7 @@ synthesizer
 viola
 violin
 angklung
+tambourine
+xylophone
+cowbell
+vibraphone

@@ -1,0 +1,10 @@
+seed
+stem
+root
+flower
+leaf
+petal
+fruit
+trunk
+branch
+grass

@@ -23,3 +23,5 @@ decagon
 circle
 oval
 elipse
+parabola
+curve

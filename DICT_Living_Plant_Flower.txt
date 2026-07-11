@@ -67,10 +67,11 @@ sakura
 salvia
 scabiosa
 skeleton-flower
-snapdraggon
+snap-draggon
 sunflower
 tulip
 violet
 vinca
 yarrow
 zinnia
+wisteria
