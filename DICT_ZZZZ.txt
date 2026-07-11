@@ -12,7 +12,6 @@ access
 accident
 accurate
 achieve
-acid
 across
 act
 activity
@@ -58,7 +57,6 @@ am
 amazing
 amino
 ample
-amplitude
 anaconda
 and
 andersite
@@ -99,7 +97,6 @@ ask
 assault
 astray
 at
-atom
 attach
 attack
 attempt
@@ -117,7 +114,6 @@ awkward
 babendil
 baby
 backward
-bacteria
 bad
 bag
 baggage
@@ -134,7 +130,6 @@ bargaining
 bark
 barrel
 base
-basic
 basket
 bass
 bat
@@ -181,7 +176,6 @@ bill
 bin
 binary
 bind
-biology
 bit
 bite
 bitter
@@ -205,12 +199,10 @@ bow
 bowl
 box
 boy
-branch
 brand
 brave
 break
 breakfast
-breast
 breathe
 brick
 bridge
@@ -221,7 +213,6 @@ bucket
 budgie
 bug
 build
-bulb
 bull
 bullet
 burn
@@ -235,7 +226,6 @@ by
 byte
 cabasa
 cabbage
-cable
 cage
 cajon
 calendar
@@ -313,7 +303,6 @@ city
 civilian
 clap
 clapstick
-class
 classroom
 claves
 clay
@@ -331,7 +320,6 @@ cluster
 coat
 cobble
 code
-coffee
 coin
 cold
 collaboration
@@ -417,13 +405,11 @@ crown
 crusade
 cry
 crystal
-cub
 cuboid
 cuddle
 cultivate
 culture
 cup
-current
 curtain
 curve
 custome
@@ -444,8 +430,6 @@ decease
 decide
 decrease
 decryp
-decrypt
-decryption
 deficit
 define
 delay
@@ -519,7 +503,6 @@ dwarf
 dye
 dynamic
 eager
-eagle
 eal
 early
 earth
@@ -535,7 +518,6 @@ effort
 egg
 elaborate
 elder
-electron
 elegance
 element
 elevate
@@ -543,19 +525,15 @@ else
 emergency
 emotion
 empty
-encrypt
-encryption
 end
 endoplasmic
 enemy
-energy
 enfix
 enhance
 enjoy
 enquire
 enter
 entity
-enzyme
 equation
 equator
 equip
@@ -607,7 +585,6 @@ fee
 feed
 feel
 feeling
-felis
 felt
 female
 fence
@@ -615,7 +592,6 @@ fermion
 ferrinho
 fetch
 few
-field
 fight
 fill
 film
@@ -638,12 +614,10 @@ flat
 flavor
 flexatone
 fling
-float
 floating
 floor
 flour
 flow
-flower
 fluent
 fluffy
 fog
@@ -667,7 +641,6 @@ frame
 freaking
 free
 freedom
-frequency
 frequent
 fresh
 friction
@@ -678,7 +651,6 @@ fright
 from
 front
 frown
-fruit
 fumble
 fur
 furniture
@@ -690,7 +662,6 @@ garbage
 gas
 gate
 gear
-geese
 generate
 geography
 gerbera
@@ -714,16 +685,13 @@ go
 golgi
 gong
 good
-goose
 gown
 grab
 grand
 grant
 graph
 graphic
-grass
 gravel
-gravity
 gray
 great
 greed
@@ -763,9 +731,7 @@ hate
 have
 havoc
 headline
-headset
 hear
-heat
 heaven
 heavy
 hedge
@@ -786,7 +752,6 @@ hide
 high
 hill
 hint
-hippo
 histogram
 hit
 hive
@@ -818,7 +783,6 @@ idol
 if
 illegal
 illustrate
-image
 imagine
 in
 incident
@@ -840,7 +804,6 @@ instead
 insult
 interior
 into
-intty
 invite
 involve
 ion
@@ -855,7 +818,6 @@ iteration
 its
 ivy
 jail
-jalapeno
 jam
 jealous
 jelly
@@ -866,7 +828,6 @@ journal
 joy
 joystick
 jug
-juice
 jump
 jurisdiction
 just
@@ -874,16 +835,13 @@ kayamb
 keen
 keep
 kelp
-kemanak
 kernel
 key
-keyboard
 keycard
 khartal
 kid
 kill
 kind
-kinetic
 king
 kit
 kitchen
@@ -893,9 +851,6 @@ knit
 knock
 know
 knowledge
-koala
-kouxian
-kulintang
 la
 laboratory
 ladder
@@ -918,7 +873,6 @@ lawn
 layer
 lazy
 le
-leaf
 leak
 lean
 learn
@@ -1029,7 +983,6 @@ merit
 mesh
 message
 mi
-microphone
 microscope
 microscopic
 middlemist
@@ -1044,7 +997,6 @@ minute
 mirror
 miss
 mistake
-mitochondria
 moan
 moat
 mod
@@ -1055,7 +1007,6 @@ moment
 momentum
 monday
 money
-monitor
 monk
 monster
 month
@@ -1203,16 +1154,13 @@ peko
 penetrate
 penny
 people
-pepper
 perfect
 perform
 performance
 permit
 person
 perspective
-petal
 philosophy
-phone
 phosporus
 photo
 photography
@@ -1266,7 +1214,6 @@ positive
 posses
 post
 pot
-potential
 powder
 power
 practical
@@ -1310,7 +1257,6 @@ protea
 protect
 protein
 proton
-protozoa
 prove
 provide
 province
@@ -1416,9 +1362,7 @@ reverse
 reward
 rewind
 rhythym
-rib
 ribosome
-rice
 rich
 ridge
 ripe
@@ -1445,7 +1389,6 @@ sad
 said
 sake
 sale
-salt
 sand
 sank
 sapling
@@ -1476,7 +1419,6 @@ secret
 secretary
 section
 see
-seed
 seem
 seldom
 select
@@ -1491,7 +1433,6 @@ serve
 servere
 set
 sextillion
-shallot
 share
 sharp
 sharpener
@@ -1556,7 +1497,6 @@ snowflake
 so
 social
 society
-soda
 sofa
 soft
 soldier
@@ -1583,12 +1523,10 @@ spade
 spare
 spawn
 speak
-speaker
 special
 spend
 spice
 spin
-spine
 spiral
 split
 spoon
@@ -1633,7 +1571,6 @@ strand
 straw
 stream
 street
-string
 stripe
 strive
 struct
@@ -1665,7 +1602,6 @@ suppose
 sure
 surprise
 survive
-susan
 swallow
 sweat
 sweet
@@ -1685,18 +1621,11 @@ tap
 tape
 taste
 te
-tea
 teach
 teacher
 tear
-technology
 teen
-teeth
-telephone
-telescope
-television
 tell
-temperature
 tempo
 temporary
 tempt
@@ -1747,7 +1676,6 @@ toilet
 toll
 ton
 tone
-tooth
 top
 tophat
 tornado
@@ -1780,7 +1708,6 @@ troop
 tropic
 tropical
 true
-trunk
 trust
 try
 tube
@@ -1796,7 +1723,6 @@ unable
 under
 understand
 unicorn
-unit
 unite
 until
 unwanted
@@ -1811,7 +1737,6 @@ vain
 valve
 vapour
 var
-variable
 vary
 verb
 verdict
@@ -1820,7 +1745,6 @@ very
 vessel
 vibraslap
 vibrate
-video
 view
 virus
 vision
@@ -1828,7 +1752,6 @@ visit
 visual
 vital
 void
-voltage
 volunteer
 vomit
 wagon
@@ -1850,7 +1773,6 @@ wasting
 watch
 water
 waterfall
-wave
 way
 ways
 we
@@ -1883,7 +1805,6 @@ window
 windshield
 wine
 winter
-wire
 wireless
 wish
 with
@@ -1894,7 +1815,6 @@ women
 wonder
 wood
 word
-work
 world
 worm
 worth

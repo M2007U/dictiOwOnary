@@ -21,3 +21,10 @@ gif
 mov
 txt
 sudo
+tree
+stack
+queue
+graph
+pointer
+null
+boolean

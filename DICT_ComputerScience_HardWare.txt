@@ -1,0 +1,15 @@
+monitor
+central processing unit
+random access memory
+graphics processing unit
+keyboard
+mouse
+microphone
+speaker
+headset
+cable
+wire
+bulb
+light-emitting-diote
+diote
+capacitor

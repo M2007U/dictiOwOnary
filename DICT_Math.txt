@@ -69,3 +69,5 @@ integer
 real
 imaginary
 parenthesis
+negative
+positive

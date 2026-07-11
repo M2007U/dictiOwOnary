@@ -3,3 +3,5 @@ television
 smartphone
 telephone
 phone
+technology
+microscope

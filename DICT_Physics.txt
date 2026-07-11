@@ -18,3 +18,11 @@ heat
 gravity
 magnetic
 field
+voltage
+current
+flux
+wave
+frequency
+amplitude
+atom
+electron

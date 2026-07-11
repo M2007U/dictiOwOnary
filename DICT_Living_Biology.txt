@@ -2,3 +2,7 @@ mitochondria
 enzyme
 rod-cell
 cone-cell
+amino-acid
+bacteria
+protozoa
+biology
