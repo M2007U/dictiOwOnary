@@ -1,13 +1,13 @@
+angklung
 brass
 cello
+cowbell
 piano
 strings
 synth
 synthesizer
+tambourine
+vibraphone
 viola
 violin
-angklung
-tambourine
 xylophone
-cowbell
-vibraphone

@@ -186,6 +186,7 @@ blind
 block
 blonde
 blow
+blueberry
 blunt
 board
 body
@@ -311,6 +312,7 @@ clear
 clearly
 clerk
 clever
+clock
 close
 closet
 cloud
@@ -432,6 +434,7 @@ decrease
 decryp
 deficit
 define
+definition
 delay
 deliver
 delta
@@ -456,6 +459,8 @@ diamond
 did
 die
 dig
+digit
+digital
 dine
 dining
 dinner
@@ -473,6 +478,7 @@ discrete
 discuss
 disk
 displacement
+display
 distance
 distort
 div
@@ -609,6 +615,7 @@ flake
 flame
 flase
 flash
+flashlight
 flask
 flat
 flavor
@@ -651,7 +658,9 @@ fright
 from
 front
 frown
+frying
 fumble
+fun
 fur
 furniture
 future
@@ -663,6 +672,7 @@ gas
 gate
 gear
 generate
+generator
 geography
 gerbera
 gesture
@@ -685,6 +695,7 @@ go
 golgi
 gong
 good
+got
 gown
 grab
 grand
@@ -802,6 +813,7 @@ inset
 inside
 instead
 insult
+interface
 interior
 into
 invite
@@ -1026,6 +1038,7 @@ much
 mug
 muggy
 mul
+multimedia
 mune
 muscle
 museum
@@ -1105,6 +1118,7 @@ open
 opinion
 option
 or
+orb
 orbit
 order
 ore
@@ -1177,6 +1191,7 @@ pillow
 pinch
 pistol
 pitch
+pizza
 place
 plain
 plane
@@ -1240,6 +1255,7 @@ prize
 probe
 problem
 process
+processing
 processive
 procla
 produce
@@ -1408,6 +1424,7 @@ scoop
 scope
 score
 scratch
+scream
 screen
 screenshot
 script
@@ -1663,6 +1680,7 @@ tide
 tied
 tigress
 tile
+time
 timer
 tint
 tiny
@@ -1678,6 +1696,8 @@ ton
 tone
 top
 tophat
+torch
+torchlight
 tornado
 toss
 touch
@@ -1724,6 +1744,7 @@ under
 understand
 unicorn
 unite
+universe
 until
 unwanted
 up
@@ -1734,6 +1755,7 @@ user
 usual
 vaccine
 vain
+value
 valve
 vapour
 var

@@ -1,0 +1,9 @@
+cloud
+hurricane
+rain
+snow
+storm
+thunder
+tornado
+tsunami
+typhoon

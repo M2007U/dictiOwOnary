@@ -71,3 +71,4 @@ imaginary
 parenthesis
 negative
 positive
+number

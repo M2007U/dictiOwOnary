@@ -13,3 +13,8 @@ bulb
 light-emitting-diote
 diote
 capacitor
+SATA
+AX200
+M.2
+antena
+NVMe

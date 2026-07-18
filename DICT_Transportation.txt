@@ -1,0 +1,14 @@
+car
+lorry
+truck
+ambulance
+firetruck
+wheel
+pedal
+motorbike
+bike
+bus
+steer
+windshield
+wiper
+motorcycle

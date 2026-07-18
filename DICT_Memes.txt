@@ -13,8 +13,10 @@ F=ma W=FScosA Ek=mv^2/2 Ep=mgh
 FFC000 00C0FF FF00C0
 H61M H81M H110M H310M H570M
 Have you tried turning it off and on again ?
+I am once again asking for your financial support
 I have no idea why this works
 I heard the bell ~
+I'm under the water please help
 It's not a bug , it's a feature .
 KWASOwOHNT
 LEEET MEEE IIINNN ~~~
@@ -38,12 +40,17 @@ Wait that's illegal
 YOU SHALL NOT PASS
 after all this time ? always
 ah i'm die thank you forever
+ain't nobody got time for that
 all your base are belong to us
 am i a joke to you ?
 arigathanks gozaimuch
 ban that guy ~~~
+central processing unit
 cout << "hello world" << endl;
 creeper ? aw man ~
+diagnostic: skill issue
+digital visual interface
+display port
 do a barrel roll ~
 do you know da wae ?
 do you want to have a bad time ?
@@ -55,11 +62,13 @@ everyday i'm shufflin
 extra tab * laughs in C++ / javascript
 get the banana kris ~
 git commit -m " final final v2 "
+graphics processing unit
 haiyah wokhei so weak
 have confidence ... no konfidense
 hello raiders ~~~
 here comes dat boi ~
 hide yo kids ~ hide yo wife ~
+high definition multimedia interface
 hitgub guthib gibhut hutgib gubhit hibgut hubgit github
 hold my beer
 i am not seiso ...
@@ -75,6 +84,7 @@ i have the high ground
 i see what you did there
 i'm biig i'm bave i'm boobooball
 i'm connor i'm the android sent by cyberlive
+i'm making a note here huge success
 i'm scared of broccoli
 if it works , don't touch it
 is anyone there ?
@@ -83,6 +93,7 @@ it was at this moment that he knew ...
 it's a trap !
 it's just a theory
 it's leviossa not levi-osa ~
+just five more minutes
 keyboard not found press F1 to continue
 leeroy jenkins !!
 let it go ~
@@ -96,11 +107,15 @@ oppa gangnam style
 padoru PADORU ~
 pen pineapple apple pen
 perfectly balanced , as all things should be
+ponder the OwOrb
 press F to pay respects
 protect da queen ~
+pseudo random number generator
+random access memory
 segmentation fault
 ship on friday
 smol smol turtle house
+solid state drive
 source : I made it up
 stack overflow
 stonks kalm panik fiziks
@@ -113,6 +128,7 @@ the monster learnt to sing the lullaby
 there are 10 kinds of people
 there are 6 levels of fatness
 this is SPARTA ~~~
+this is a triumph
 this is fine
 this is the place we were meant to be
 tiny shark biig energy now fish
@@ -120,9 +136,11 @@ today i bought a kwasohnt
 today is friday in california
 turn to page 394
 unexpected token
+universal serial bus
 up down strange charm top bottom
 usually the 1st night is not that bad
 v=ds/dt a=dv/dt j=da/dt
+video graphics array
 we are number one
 what is the capital of assyria ?
 whose clues ? blue's clues ~

@@ -1,0 +1,8 @@
+angry
+happy
+sad
+fear
+panic
+calm
+nervous
+disgust
