@@ -124,7 +124,7 @@ int main ()
 
         if (USERinput == "/help" || USERinput == "/h")
         {
-            cout << "/print all, /clr, /read doc, /print doc, /search, /del" << endl;
+            cout << "/print all, /clr, /read doc, /print doc, /search, /del, /delList" << endl;
         }
         else if (USERinput == "/print all")
         {
@@ -273,6 +273,11 @@ int main ()
                     }
                 }                
             }
+        }
+        else if (USERinput == "/delAll")
+        {
+            StringList.clear();
+            cout << "string list cleared, all clean" << endl;
         }
         else if (USERinput.at(0) == '/')
         {
