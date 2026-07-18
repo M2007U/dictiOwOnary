@@ -5,9 +5,11 @@
 #include <limits>
 #include <fstream>
 
+#include "FOwOFunctions.cpp"
+
 using namespace std;
 
-int POwO_vector_BinarySearch(vector<string>& inVector , string inString, bool inUseLength)
+int POwO_vector_BinarySearch(vector<string>& inVector , string inString, bool inUseLength, bool inDebug)
 {
     //will return -1 if string does not exist, else will return index
 
@@ -23,8 +25,11 @@ int POwO_vector_BinarySearch(vector<string>& inVector , string inString, bool in
         while (PinL < PinR)
         {
             int PinM = PinL + (PinR - PinL) / 2;
-            cout << "LMR:" << PinL << "," << PinM << "," << PinR << endl;
-
+            if (inDebug)
+            {
+                cout << "LMR:" << PinL << "," << PinM << "," << PinR << endl;
+            }
+            
             //base on lenth first
             if (inVector[PinM].length() < inString.length() && inUseLength)
             {
@@ -57,7 +62,7 @@ int POwO_vector_BinarySearch(vector<string>& inVector , string inString, bool in
       
 }
 
-void POwO_vector_BinaryInsert(vector<string>& inVector , string inString , bool inUseLength)
+void POwO_vector_BinaryInsert(vector<string>& inVector , string inString , bool inUseLength, bool inDebug)
 {
     if (inVector.size() == 0)
     {
@@ -72,7 +77,10 @@ void POwO_vector_BinaryInsert(vector<string>& inVector , string inString , bool 
         while (PinL < PinR)
         {
             int PinM = PinL + (PinR - PinL) / 2;
-            cout << "LMR:" << PinL << "," << PinM << "," << PinR << endl;
+            if (inDebug)
+            {
+                cout << "LMR:" << PinL << "," << PinM << "," << PinR << endl;
+            }
 
             //base on lenth first
             if (inVector[PinM].length() < inString.length() && inUseLength)
@@ -111,32 +119,46 @@ void POwO_vector_BinaryInsert(vector<string>& inVector , string inString , bool 
 
 int main ()
 {
+    FOwO fowo;
     vector<string> StringList = {};
     string USERinput = "";
+    bool FLAG_Debug = false;
 
     getline(cin,USERinput);
 
     while(USERinput != "/exit")
     {
-        cout << ">";
+        cout << fowo.strOwOng.shOwOrthand.ColorText("b") <<  ">";
         //cin.ignore();
         getline(cin,USERinput);
+        cout << fowo.strOwOng.shOwOrthand.ColorText("d");
 
         if (USERinput == "/help" || USERinput == "/h")
         {
-            cout << "/print all, /clr, /read doc, /print doc, /search, /del, /delList" << endl;
+            cout << fowo.strOwOng.shOwOrthand.ColorText("g") << fowo.cOwOut.GenerateTable<string>({"Commands","what it does ?"},{16,75}, {'l','l'},
+            {
+                "/print all","print all words in the list",
+                "/clr","clear the screen",
+                "/read doc","read all words from a txt file",
+                "/print doc","generate a txt file with all words in the list",
+                "/search","search for a word and return it's index",
+
+                "/del","delete a word at a certain index",
+                "/delList","delete all words that appears in a certain txt file from the list",
+                "/delAll","delete all words from te list",
+
+                "/flag debug","switch between debug mode or not"
+            },'-',' ') << fowo.strOwOng.shOwOrthand.ColorText("d") << endl;
         }
         else if (USERinput == "/print all")
         {
             int temp_columnCount = 0;
-            cout << "column count ? : ";
-            cin >> temp_columnCount;
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            fowo.cOwOut.PromptForNumber<int>("column count ? : ", temp_columnCount);
 
             int temp_columnWidth = 0;
-            cout << "column width ? : ";
-            cin >> temp_columnWidth;
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            fowo.cOwOut.PromptForNumber<int>("column width ? : ", temp_columnWidth);
+
+            cout << fowo.strOwOng.shOwOrthand.ColorText("g") ;
 
             for(int i = 0 ; i < StringList.size() ; i++)
             {
@@ -148,7 +170,7 @@ int main ()
                 }
             }
 
-            cout << endl;
+            cout << fowo.strOwOng.shOwOrthand.ColorText("d") << endl;
 
 
         }
@@ -160,20 +182,18 @@ int main ()
                 system("clear");
             #endif
         }
-        else if (USERinput == "/read doc")
+        else if (USERinput == "/read doc" || USERinput == "/rd")
         {
-            cout << "filename ? : ";
             string temp_fileName = "";
-            getline(cin,temp_fileName);
-            cout << "is ordered ? y/n :";
             string temp_isOrdered = "";
-            getline(cin,temp_isOrdered);
+
+            fowo.cOwOut.PromptUserStrings({&temp_fileName, &temp_isOrdered},{"filename ? : ","is ordered ? y/n :"});
 
             ifstream ReaderOwO(temp_fileName);
 
             if (!ReaderOwO.is_open())
             {
-                cout << "nope, can't find file QwQ>" << endl;
+                cout << fowo.cOwOut.ConsoleQuick("r","nope, can't find file QwQ>") << endl;
             }
             else
             {
@@ -195,15 +215,17 @@ int main ()
                     {
                         if (temp_line != "")
                         {
-                            POwO_vector_BinaryInsert(StringList, temp_line, false);
+                            POwO_vector_BinaryInsert(StringList, temp_line, false, FLAG_Debug);
                         }
                     }
                 }
 
+                cout << fowo.cOwOut.ConsoleQuick("g","file read : " + temp_fileName) << endl;
+
                 
             }
         }
-        else if (USERinput == "/print doc")
+        else if (USERinput == "/print doc" || USERinput == "/pd")
         {
             cout << "filename ? : ";
             string temp_fileName = "";
@@ -223,13 +245,12 @@ int main ()
             }
             WriterOwO.close();
         }
-        else if (USERinput == "/search")
+        else if (USERinput == "/search" || USERinput == "/sr")
         {
             string temp_SearchString = "";
-            cout << "search string ? : ";
-            getline(cin, temp_SearchString);
+            fowo.cOwOut.PromptUserStrings({&temp_SearchString},{"search string ? : "});
 
-            cout << "searched index : " << POwO_vector_BinarySearch(StringList, temp_SearchString, false) << endl;
+            cout << fowo.strOwOng.shOwOrthand.ColorText("g") << "searched index : " << POwO_vector_BinarySearch(StringList, temp_SearchString, false, FLAG_Debug) << fowo.strOwOng.shOwOrthand.ColorText("d") << endl;
         }
         else if (USERinput == "/del")
         {
@@ -264,7 +285,7 @@ int main ()
                 string temp_line = "";
                 while( getline(ReaderOwO, temp_line))
                 {
-                    int temp_catchIndex = POwO_vector_BinarySearch(StringList, temp_line, false);
+                    int temp_catchIndex = POwO_vector_BinarySearch(StringList, temp_line, false, FLAG_Debug);
 
                     if (temp_catchIndex > -1)
                     {
@@ -279,14 +300,41 @@ int main ()
             StringList.clear();
             cout << "string list cleared, all clean" << endl;
         }
+        else if (USERinput == "/exit")
+        {
+            cout << "ok bye OwO/" << endl;
+        }
+        else if (USERinput == "/flag debug")
+        {
+            string temp_userInput = "";
+
+            fowo.cOwOut.PromptUserStrings({&temp_userInput},{"set flag Debug to (0/1) ?"});
+
+            if (temp_userInput == "0")
+            {
+                FLAG_Debug = false;
+                cout << fowo.cOwOut.ConsoleQuick("g","FLAG_Debug is now false") << endl;
+            }
+            else if (temp_userInput == "1")
+            {
+                FLAG_Debug = true;
+                cout << fowo.cOwOut.ConsoleQuick("g","FLAG_Debug is now true") << endl;
+            }
+            else
+            {
+                cout << fowo.cOwOut.ConsoleQuick("r","0 or 1 ? FLAG not set") << endl;
+            }
+        }
         else if (USERinput.at(0) == '/')
         {
-            cout << "unrecognized command" << endl;
+            cout << fowo.strOwOng.shOwOrthand.ColorText("r") << "unrecognized command" << fowo.strOwOng.shOwOrthand.ColorText("d") << endl;
         }
         else
         {
-            POwO_vector_BinaryInsert(StringList, USERinput, false);
+            POwO_vector_BinaryInsert(StringList, USERinput, false, FLAG_Debug);
         }
+
+        cout << endl;
     }
     
 }
