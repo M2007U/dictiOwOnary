@@ -13,3 +13,5 @@ XR_XharpRazor
 THIEF700
 Kappa1
 ThisIsNot2d
+DavidBrailsford
+SchwaWolf
