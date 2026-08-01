@@ -49,15 +49,18 @@ central processing unit
 cout << "hello world" << endl;
 creeper ? aw man ~
 diagnostic: skill issue
+did you get your wish
 digital visual interface
 display port
 do a barrel roll ~
 do you know da wae ?
 do you want to have a bad time ?
 do your worse all at once
+do your worst all at once
 don't redeem the card
 e to the i pi plus one is zero
 each roulette adds a bullet
+eating sugar no papa
 everyday i'm shufflin
 extra tab * laughs in C++ / javascript
 get the banana kris ~
@@ -66,11 +69,13 @@ graphics processing unit
 haiyah wokhei so weak
 have confidence ... no konfidense
 hello raiders ~~~
+hello youtube twitch internet
 here comes dat boi ~
 hide yo kids ~ hide yo wife ~
 high definition multimedia interface
 hitgub guthib gibhut hutgib gubhit hibgut hubgit github
 hold my beer
+i am not a lonely burning lighter
 i am not seiso ...
 i am your father
 i can haz cheeseburger ?
@@ -82,6 +87,8 @@ i have a pineapple
 i have an apple
 i have the high ground
 i see what you did there
+i shouldn't do this to my self
+i'll give them shelter
 i'm biig i'm bave i'm boobooball
 i'm connor i'm the android sent by cyberlive
 i'm making a note here huge success
@@ -116,6 +123,7 @@ segmentation fault
 ship on friday
 smol smol turtle house
 solid state drive
+someone tell me something comforting
 source : I made it up
 stack overflow
 stonks kalm panik fiziks
