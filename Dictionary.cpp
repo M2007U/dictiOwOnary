@@ -9,6 +9,8 @@
 
 using namespace std;
 
+FOwO fowo;
+
 int POwO_vector_BinarySearch(vector<string>& inVector , string inString, bool inUseLength, bool inDebug)
 {
     //will return -1 if string does not exist, else will return index
@@ -117,9 +119,47 @@ void POwO_vector_BinaryInsert(vector<string>& inVector , string inString , bool 
     
 }
 
+void POwO_routine_ReadDoc_Single(vector<string>& inStringList, string inFileName, string inIsOrdered, bool inDebug)
+{
+    ifstream ReaderOwO(inFileName);
+
+    if (!ReaderOwO.is_open())
+    {
+        cout << fowo.cOwOut.ConsoleQuick("r","nope, can't find file QwQ> : " + inFileName) << endl;
+    }
+    else
+    {
+        string temp_line = "";
+
+        if (inIsOrdered == "y")
+        {
+            while( getline(ReaderOwO, temp_line))
+            {
+                if (temp_line != "")
+                {
+                    inStringList.push_back(temp_line);
+                }
+            }
+        }
+        else
+        {
+            while( getline(ReaderOwO, temp_line))
+            {
+                if (temp_line != "")
+                {
+                    POwO_vector_BinaryInsert(inStringList, temp_line, false, inDebug);
+                }
+            }
+        }
+
+        cout << fowo.cOwOut.ConsoleQuick("g","file read : " + inFileName) << endl;
+
+    }
+}
+
 int main ()
 {
-    FOwO fowo;
+    
     vector<string> StringList = {};
     string USERinput = "";
     bool FLAG_Debug = false;
@@ -189,40 +229,36 @@ int main ()
 
             fowo.cOwOut.PromptUserStrings({&temp_fileName, &temp_isOrdered},{"filename ? : ","is ordered ? y/n :"});
 
-            ifstream ReaderOwO(temp_fileName);
+            POwO_routine_ReadDoc_Single(StringList,temp_fileName,temp_isOrdered,FLAG_Debug);
+        }
+        else if (USERinput == "/read docs" || USERinput == "/rds")
+        {
+            //prompt for a file, that file is a name list, it contains all file names to be read
+
+            string temp_ListName = "";
+
+            fowo.cOwOut.PromptUserStrings({&temp_ListName},{"ListfileName ? : "});
+
+            ifstream ReaderOwO(temp_ListName);
 
             if (!ReaderOwO.is_open())
             {
-                cout << fowo.cOwOut.ConsoleQuick("r","nope, can't find file QwQ>") << endl;
+                cout << fowo.cOwOut.ConsoleQuick("r","nope, can't find file QwQ> : " + temp_ListName) << endl;
             }
             else
             {
+                //for every line in the list, find each doc and read the words
                 string temp_line = "";
-
-                if (temp_isOrdered == "y")
+                while( getline(ReaderOwO, temp_line))
                 {
-                    while( getline(ReaderOwO, temp_line))
+                    if (temp_line != "")
                     {
-                        if (temp_line != "")
-                        {
-                            StringList.push_back(temp_line);
-                        }
-                    }
-                }
-                else
-                {
-                    while( getline(ReaderOwO, temp_line))
-                    {
-                        if (temp_line != "")
-                        {
-                            POwO_vector_BinaryInsert(StringList, temp_line, false, FLAG_Debug);
-                        }
+                        cout << fowo.cOwOut.ConsoleQuick("w","reading file : " + temp_line) << endl;
+                        POwO_routine_ReadDoc_Single(StringList, temp_line, "n", FLAG_Debug);
                     }
                 }
 
-                cout << fowo.cOwOut.ConsoleQuick("g","file read : " + temp_fileName) << endl;
-
-                
+                cout << fowo.cOwOut.ConsoleQuick("g","done OwO") << endl;
             }
         }
         else if (USERinput == "/print doc" || USERinput == "/pd")
@@ -298,7 +334,7 @@ int main ()
         else if (USERinput == "/delAll")
         {
             StringList.clear();
-            cout << "string list cleared, all clean" << endl;
+            cout << fowo.cOwOut.ConsoleQuick("g","string list cleared, all clean") << endl;
         }
         else if (USERinput == "/exit")
         {
