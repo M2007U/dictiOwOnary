@@ -180,6 +180,7 @@ int main ()
                 "/print all","print all words in the list",
                 "/clr","clear the screen",
                 "/read doc","read all words from a txt file",
+                "/read docs","read all given docs from a single list",
                 "/print doc","generate a txt file with all words in the list",
                 "/search","search for a word and return it's index",
 

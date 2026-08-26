@@ -504,6 +504,7 @@ drop
 drum
 dry
 due
+dungeon
 dust
 dwarf
 dye
@@ -661,6 +662,7 @@ frown
 frying
 fumble
 fun
+function
 fur
 furniture
 future
@@ -849,6 +851,7 @@ keep
 kelp
 kernel
 key
+keyboard
 keycard
 khartal
 kid
@@ -924,6 +927,7 @@ living
 loaf
 lobster
 locate
+lock
 loft
 log
 logic
@@ -1081,6 +1085,7 @@ normal
 north
 nostalgic
 not
+notch
 note
 nothing
 notice
@@ -1137,6 +1142,8 @@ own
 oyster
 pack
 package
+pad
+padlock
 page
 pain
 paint
@@ -1171,6 +1178,7 @@ people
 perfect
 perform
 performance
+period
 permit
 person
 perspective
@@ -1488,6 +1496,7 @@ single
 sip
 sir
 sit
+situation
 skeleton
 skill
 skin
@@ -1537,6 +1546,7 @@ source
 south
 space
 spade
+span
 spare
 spawn
 speak
@@ -1604,6 +1614,7 @@ submarine
 subscribe
 substitute
 suceed
+suck
 sudden
 suffer
 suffering
@@ -1750,6 +1761,7 @@ unwanted
 up
 urge
 urgent
+usage
 use
 user
 usual
