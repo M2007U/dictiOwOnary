@@ -41,7 +41,6 @@ agung
 ahead
 aid
 air
-alafon
 alchohol
 algae
 algebra
@@ -77,6 +76,7 @@ apply
 approach
 appropriate
 architect
+architecture
 archive
 are
 area
@@ -156,6 +156,7 @@ beer
 before
 beg
 begin
+behavior
 behind
 belgia
 believe
@@ -236,6 +237,7 @@ calla
 calling
 camera
 can
+cancel
 candle
 candy
 cant
@@ -253,6 +255,7 @@ carry
 cart
 cartage
 case
+cash
 castanets
 catapult
 catch
@@ -412,6 +415,7 @@ cuddle
 cultivate
 culture
 cup
+current
 curtain
 curve
 custome
@@ -432,6 +436,7 @@ decease
 decide
 decrease
 decryp
+default
 deficit
 define
 definition
@@ -477,6 +482,7 @@ discover
 discrete
 discuss
 disk
+dismiss
 displacement
 display
 distance
@@ -489,6 +495,7 @@ doll
 done
 dont
 door
+dot
 dough
 down
 dozen
@@ -509,6 +516,7 @@ dust
 dwarf
 dye
 dynamic
+each
 eager
 eal
 early
@@ -566,6 +574,7 @@ expand
 expect
 experience
 explain
+export
 express
 expression
 exsist
@@ -588,6 +597,7 @@ favor
 fear
 fears
 feast
+feature
 fee
 feed
 feel
@@ -600,6 +610,7 @@ ferrinho
 fetch
 few
 fight
+file
 fill
 film
 filter
@@ -630,6 +641,7 @@ fluent
 fluffy
 fog
 fold
+folder
 folk
 follow
 food
@@ -673,6 +685,7 @@ garbage
 gas
 gate
 gear
+general
 generate
 generator
 geography
@@ -797,6 +810,7 @@ if
 illegal
 illustrate
 imagine
+import
 in
 incident
 incline
@@ -828,6 +842,7 @@ isocahedron
 isoceles
 issue
 it
+item
 iteration
 its
 ivy
@@ -959,6 +974,8 @@ makes
 male
 man
 manace
+management
+manipulate
 mansion
 manufacture
 many
@@ -1018,6 +1035,7 @@ moat
 mod
 modern
 modify
+module
 moist
 moment
 momentum
@@ -1121,6 +1139,7 @@ only
 opaque
 open
 opinion
+optimize
 option
 or
 orb
@@ -1202,6 +1221,7 @@ pitch
 pizza
 place
 plain
+plan
 plane
 planet
 plank
@@ -1348,8 +1368,10 @@ receive
 record
 reduce
 refer
+refine
 refrigerator
 regard
+register
 regress
 regular
 relate
@@ -1423,6 +1445,7 @@ saw
 say
 scalar
 scale
+scan
 scare
 scatter
 scene
@@ -1456,6 +1479,7 @@ serial
 series
 serve
 servere
+session
 set
 sextillion
 share
@@ -1466,6 +1490,7 @@ shekere
 shelf
 shell
 shield
+shift
 ship
 shoe
 shoot
@@ -1497,6 +1522,7 @@ sip
 sir
 sit
 situation
+size
 skeleton
 skill
 skin
@@ -1551,8 +1577,10 @@ spare
 spawn
 speak
 special
+specific
 spend
 spice
+spike
 spin
 spiral
 split
@@ -1636,6 +1664,7 @@ sweet
 swing
 switch
 symbol
+sync
 system
 table
 take
@@ -1816,6 +1845,7 @@ weather
 wednesday
 week
 weigh
+weight
 well
 were
 west
@@ -1849,6 +1879,7 @@ women
 wonder
 wood
 word
+work
 world
 worm
 worth
